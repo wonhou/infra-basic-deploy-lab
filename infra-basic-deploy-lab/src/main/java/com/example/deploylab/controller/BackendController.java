@@ -1,5 +1,3 @@
-// src/main/java/com/example/deploylab/BackendController.java
-
 package com.example.deploylab.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
@@ -13,5 +11,10 @@ public class BackendController {
     @GetMapping("/backend")
     public String backend() {
         return "backend";
+    }
+
+    @GetMapping("/backend2")
+    public String backend2() {
+        return "backend2";
     }
 }
